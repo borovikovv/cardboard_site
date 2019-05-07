@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131238690-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-131238690-1');
+        </script>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="/src/css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&amp;subset=cyrillic" rel="stylesheet">
+        <link rel="stylesheet" href="/src/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="/src/css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="/src/css/slick-theme.css"/>
+        <link href="/src/css/main.css" rel="stylesheet">
+        <title>Добрый картон</title>
+    </head>
+    <body>
+        <!-- Шапка с номерами телефонов -->
+        <header class="header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-3 col-sm-6 col-md-4">
+                        <div class="header-logo">
+                        </div>
+                    </div>
+                    <div class="col-9 col-sm-6 col-md-8 header-contacts">
+                        <div class="header-phone">
+                            <div class="phone-number-1">8 (347) <span class="header-phone_span">271-54-28</span></div>
+                            <div class="phone-number-2">8 (347) <span class="header-phone_span">271-54-28</span></div>  
+                        </div>
+                        <div class="header-btn">
+                            <button class="button header-button">
+                                <img src="/src/img/phone-icon.png" alt="phone">
+                                <span class="hidden-mobile">Заказать звонок</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Первый блок с ящиками -->
+        <section class="main dark-bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-1 col-lg-5">
+                       <img class="many-box hidden-mobile wow pulse" src="/src/img/many-box.png" alt="Ящики"> 
+                    </div>
+                    <div class="col-12 col-md-10 col-lg-7">
+                        <div class="main-text">
+                            <h1 class="main-text_title">Производство упаковки из гофрокартона</h1>
+                            <div class="main-text_subtitle">
+                                с доставкой по всей России
+                            </div>
+                            <div class="main-text-form">
+                                <div class="form-title">
+                                    Получите индивидуальное предложение 
+                                    на производство и поставку гофропродукции <br>
+                                    <span class="form-title__important">Образцы упаковки бесплатно!</span>
+                                </div>
+                                <form action="#" class="form">
+                                    <input type="tel" placeholder="Введите номер телефона">
+                                    <button class="button" type="submit">Оставить заявку</button>
+                                </form>
+                                <small class="form__small">* Минимальный заказ 500шт</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Вспливающее окно -->
+        <div class="overplay">
+            <div class="popup">
+                <div class="popup-title">Форма обратной связи</div>
+                <div class="popup-close">&times;</div>
+                <div class="popup-form">
+                    <form action="#" class="popup-form">
+                        <div class="popup-header">
+                            Получите индивидуальное предложение <br>
+                            <span class="popup-header__span">на производство и поставку изделий</span>
+                            <p class="phone">Введите ваш номер телефона:</p>
+                        </div>
+                        <input type="tel" class="popup-form__input" name="phone" required>
+                        <button class="button popup-btn">Оставьте заявку!</button>
+                    </form>
+                    <div class="popup-form__small">* Минимальный заказ 500шт</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок с преимуществами -->
+
+        <section class="feature">
+            <div class="container">
+                <div class="number">
+                    <div class="number-block wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="number-block__title">5 лет</div>
+                        <div class="number-block__text">На рынке изделий из гофрокартона</div>
+                    </div>        
+                    <div class="number-block wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="number-block__title">до 5 000 000 м<sup>2</sup></div>
+                        <div class="number-block__text">Ежемесячный объем производства <br> гофрокартона</div>
+                    </div>
+                    <div class="number-block wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="number-block__title">4 000 м<sup>2</sup></div>
+                        <div class="number-block__text">Площадь склада</div>
+                    </div> 
+                </div>
+
+                <div class="feature-blocks wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-block">
+                        <div class="feature-block__img">
+                            <img src="/src/img/features/1-produce.png" alt="Производство">
+                        </div>
+                        <div class="feature-block__text wow fadeInUp">
+                            <div class="feature-block__title">Производство</div>
+                            <div class="feature-block__dscr">4 технологические линии способны выполнить любойзаказ любой сложности</div>
+                        </div>
+                    </div>
+                    <div class="feature-block wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-block__img">
+                            <img src="/src/img/features/2-peep.png" alt="Образцы">
+                        </div>
+                        <div class="feature-block__text wow fadeInUp">
+                            <div class="feature-block__title">Бесплатные образцы</div>
+                            <div class="feature-block__dscr">Бесплатно делаем образцы гофроупаковки - это помогает заранее увидеть упаковку</div>
+                        </div>
+                    </div>
+                    <div class="feature-block wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-block__img">
+                            <img src="/src/img/features/3-punishment.png" alt="Качество">
+                        </div>
+                        <div class="feature-block__text wow fadeInUp">
+                            <div class="feature-block__title">Стабильное качество</div>
+                            <div class="feature-block__dscr">Собственная лаборатория контролирует качество на каждом этапе производства</div>
+                        </div>
+                    </div>
+                    <div class="feature-block wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-block__img">
+                            <img src="/src/img/features/5-box.png" alt="Страховка">
+                        </div>
+                        <div class="feature-block__text">
+                            <div class="feature-block__title">Страховой запас</div>
+                            <div class="feature-block__dscr">Можем хранить запас гофро-продукции на своих складах и поставлять его партиями</div>
+                        </div>
+                    </div>
+
+                    <div class="feature-block wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-block__img">
+                            <img src="/src/img/features/5-print.png" alt="Флексопечать">
+                        </div>
+                        <div class="feature-block__text">
+                            <div class="feature-block__title">Флексопечать</div>
+                            <div class="feature-block__dscr">Возможно нанесение вашего  логотипа, текста или манипуляционных знаков</div>
+                        </div>
+                    </div>
+                    <div class="feature-block wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="feature-block__img">
+                            <img src="/src/img/features/6-supllements.png" alt="Добавки">
+                        </div>
+                        <div class="feature-block__text">
+                            <div class="feature-block__title">Гидрофобные добавки</div>
+                            <div class="feature-block__dscr">На производстве реализована технология, которая позволяет гофрокартону стать прочнее</div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок с продукцией -->
+
+        <section class="products">
+            <div class="container">
+                <div class="products-header wow fadeInUp">
+                    <h2>Наша продукция</h2>
+                    <img class="products-header__img" src="/src/img/products/wave.png" alt="icon">
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="product-block wow fadeInLeft" data-wow-delay="0.5s">
+                            <img class="product-block__img" src="/src/img/products/box-1.jpg" alt="Продукция">
+                            <h3>Гофрокороб 4-х клапанный</h3>
+                            <div class="product-block__button">
+                                <button class="produsts-button-1">Подробнее</button>
+                                <button class="produsts-button-2">Получить расчет</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="product-block wow fadeInRight" data-wow-delay="0.5s">
+                            <img class="product-block__img" src="/src/img/products/box-2.jpg" alt="Продукция">
+                            <h3>Гофролоток</h3>
+                            <div class="product-block__button">
+                                <button class="produsts-button-1">Подробнее</button>
+                                <button class="produsts-button-2">Получить расчет</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="product-block wow fadeInLeft" data-wow-delay="0.5s">
+                            <img class="product-block__img" src="/src/img/products/box-3.jpg" alt="Продукция">
+                            <h3>Гофрокороб самосборный (сложная высечка)</h3>
+                            <div class="product-block__button">
+                                <button class="produsts-button-1">Подробнее</button>
+                                <button class="produsts-button-2">Получить расчет</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <div class="product-block wow fadeInRight" data-wow-delay="0.5s">
+                            <img class="product-block__img" src="/src/img/products/box-4.jpg" alt="Продукция">
+                            <h3>Листовой гофрокартон</h3>
+                            <div class="product-block__button product-block__button-last">
+                                <button class="produsts-button-1">Подробнее</button>
+                                <button class="produsts-button-2">Получить расчет</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Форма для индивидуального предложения -->
+
+        <section class="offer dark-bg">
+            <div class="container">
+                <div class="offer-title wow fadeInDown" data-wow-delay="0.3s">
+                    <h2 class="offer-title__text">Получите индивидуальное предложение</h2>
+                    <span class="offer-title__small">на производство и поставку изделий</span>
+                </div>
+                <div class="offer-form wow fadeInUp" data-wow-delay="0.5s">
+                    <form class="offer-form" action="#">
+                        <label for="">Введите ваш номер телефона:</label>
+                        <input type="tel" placeholder="Ваш номер телефона">
+                        <button type="submit" class="button offer-form__btn">Оставить заявку!</button>
+                    </form>
+                    <p class="offer-form__min">* Минимальный заказ 500шт</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок с производством -->
+
+        <div class="manufacture">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-6 order-last order-lg-first">
+                        <div class="manufacture-slider wow bounceInLeft" data-wow-delay="0.5s">
+                            <img src="/src/img/manufacture/cart-1.jpg" alt="Фото производства 1">
+                            <img src="/src/img/manufacture/cart-2.jpg" alt="Фото производства 2">
+                            <img src="/src/img/manufacture/cart-3.jpg" alt="Фото производства 3">
+                            <img src="/src/img/manufacture/cart-4.jpg" alt="Фото производства 4">
+                            <img src="/src/img/manufacture/cart-5.jpg" alt="Фото производства 5">
+                        </div>
+                       
+                        <div class="manufacture-slider_sm wow bounceInLeft" data-wow-delay="0.5s">
+                            <img src="/src/img/manufacture/cart-s1.jpg" alt="">
+                            <img src="/src/img/manufacture/cart-s2.jpg" alt="">
+                            <img src="/src/img/manufacture/cart-s3.jpg" alt="">
+                            <img src="/src/img/manufacture/cart-s4.jpg" alt="">
+                            <img src="/src/img/manufacture/cart-s5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-6 order-first order-lg-last">
+                        <div class="manufacture-description wow bounceInRight" data-wow-delay="0.5s">
+                            <h3 class="manufacture-description__header">Производство</h3>
+                            <div class="manufacture-description__text">
+                                <p>Современное оборудование позволяет производить до 5 миллионов квадратных метров гофрокартона ежемесячно. Гофрокороба и лотки производятся по ГОСТу или чертежам заказчика.<br>
+                                    Досконально прорабатываем конструкции коробов и составы сырья, учитывая условия хранения, транспортировки и производства вашей продукции.<br>
+                                    Возможно нанесение цветной флексопечати на поверхность коробов.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок с клиентами -->
+
+        <div class="clients">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="clients-header">    
+                        <div class="clients-header__text">
+                            <p>Наши клиенты</p>
+                        </div>
+                        <div class="clients-header__img">
+                            <img src="/src/img/products/wave.png" alt="wave">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center col-12 clients-item_all">
+                    <div class="clients-item clients-item_rise wow bounceInLeft" data-wow-delay="0.4s"><a href="#"><img src="/src/img/clients/rise-col.jpg" alt="Восход"></a></div>
+                    <div class="clients-item clients-item_sterh wow bounceInLeft" data-wow-delay="0.3s"><a href="#"><img src="/src/img/clients/2-sterh-col.jpg" alt="СТЕРХ"></a></div>
+                    <div class="clients-item clients-item_silver wow bounceInLeft" data-wow-delay="0.2s"><a href="#"><img src="/src/img/clients/3-silver-col.jpg" alt="Серебряный снег"></a></div>
+                    <div class="clients-item clients-item_avd wow bounceInLeft" data-wow-delay="0.1s"><a href="#"><img src="/src/img/clients/4-avd-col.jpg" alt="Авдон"></a></div>
+                    <div class="clients-item clients-item_chicken wow bounceInLeft" data-wow-delay="0.8s"><a href="#"><img src="/src/img/clients/5-chicken-col.jpg" alt="Турбаслинскме бройлеры"></a></div>
+                    <div class="clients-item clients-item_ice wow bounceInLeft" data-wow-delay="0.7s"><a href="#"><img src="/src/img/clients/6-ice-col.jpg" alt="Башкирское мороженное"></a></div>
+                    <div class="clients-item clients-item_milk wow bounceInLeft" data-wow-delay="0.6s"><a href="#"><img src="/src/img/clients/7-milk-col.jpg" alt="АЛЛАТ"></a></div>
+                    <div class="clients-item clients-item_alt wow bounceInLeft" data-wow-delay="0.5s"><a href="#"><img src="/src/img/clients/8-alt-col.jpg" alt="Альтернатива"></a></div>
+                    <div class="clients-item clients-item_ind wow bounceInLeft" data-wow-delay="1.2s"><a href="#"><img src="/src/img/clients/9-ind-col.jpg" alt="Индюшкин"></a></div>
+                    <div class="clients-item clients-item_glass wow bounceInLeft" data-wow-delay="1.1s"><a href="#"><img src="/src/img/clients/10-glass-col.jpg" alt="Салават стекло"></a></div>
+                    <div class="clients-item clients-item_farm wow bounceInLeft" data-wow-delay="1s"><a href="#"><img src="/src/img/clients/11-farm-col.jpg" alt="Молочный фермер"></a></div>
+                    <div class="clients-item clients-item_megi wow bounceInLeft" data-wow-delay="0.9s"><a href="#"><img src="/src/img/clients/12-mega-col.jpg" alt="Меги"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок с отзывами -->
+        <div class="reviews">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="reviews-header wow bounceInDown" data-wow-delay="0.4s">
+                        <div class="reviews-header__text">
+                            <p>Отзывы о сотрудничестве</p>
+                        </div>
+                        <img src="/src/img/products/wave.png" alt="wave">
+                    </div>
+                </div>
+                <div class="reviews-slider wow bounceInUp" data-wow-delay="0.4s">
+                    <div class="reviews-slider__img"><img src="/src/img/reviews/list-1.jpg" alt="Документ"></div>
+                    <div class="reviews-slider__img"><img src="/src/img/reviews/list-2.jpg" alt="Документ"></div>    
+                    <div class="reviews-slider__img"><img src="/src/img/reviews/list-3.jpg" alt="Документ"></div>    
+                    <div class="reviews-slider__img"><img src="/src/img/reviews/list-4.jpg" alt="Документ"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок с контактам -->
+
+        <div class="contacts">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2302.576982518474!2d55.99903148659073!3d54.752241509925845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d939f2f1bd4371%3A0x33be391ed5fe1488!2z0L_RgNC-0YHQvy4g0J7QutGC0Y_QsdGA0Y8sIDQ2LCDQo9GE0LAsINCg0LXRgdC_LiDQkdCw0YjQutC-0YDRgtC-0YHRgtCw0L0sINCg0L7RgdGB0LjRjywgNDUwMDAw!5e0!3m2!1sru!2sua!4v1544633188287" width="1919" height="550" frameborder="0" style="border:0"></iframe>
+            <div class="contacts-block wow bounceInLeft" data-wow-delay="0.3s">
+                <div class="contacts-block_header">
+                    <p>Контакты</p>
+                </div>
+                <div class="contacts-block_office">
+                    <strong class="contacts-block__office">Адрес офиса</strong> <br>
+                    г. Уфа, Проспект октября, 46
+                </div>
+                <div class="contacts-block_storage">
+                        <strong class="contacts-block__storage">Адрес склада</strong> <br>
+                        г. Уфа, ул. Майкопская, 65/2
+                </div>
+                <div class="contacts-block_phone">
+                        <strong class="contacts-block__phone">Тел. отдела продаж</strong> <br>
+                        8 (347) 271-54-28  <br>
+                        8 (937) 363-30-00
+                    </div>
+                    <div class="contacts-block_button">
+                            <button class="contacts-block__btn button">Заказать звонок</button> <br>
+                    </div>
+                    <div class="contacts-block_mail">
+                        <strong class="contacts-block__mail">Email</strong> <br>
+                        urals.karton@gmail.com
+                    </div>
+            </div>
+        </div>
+
+        <!-- Подвал -->
+        <footer class="footer">
+            <div class="footer-info">
+            <p> &copy; 2019 Borovikov Oleksii</p>
+            </div>
+        </footer>
+
+
+            <!-- jQuery -->
+        <script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+        
+        <!-- Slick slider -->
+        <script src="/src/js/slick.min.js"> </script>
+        
+        <!-- Модальное окно -->
+        <script>
+            $(document).ready(function(){
+
+                $('.header-button').on("click", function(){
+                    $('.overplay').fadeToggle();
+                });
+
+                $('.popup-close').on("click", function(){
+                    $('.overplay').fadeToggle();
+                });
+            
+            });
+        </script>
+
+        <!-- Animate Wow js -->
+        <script src="/src/js/wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
+
+        <!-- Инициализация слайдера -->
+        <script>
+            $(document).ready(function(){
+                $('.manufacture-slider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: '.manufacture-slider_sm'
+                });
+                $('.manufacture-slider_sm').slick({
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    asNavFor: '.manufacture-slider',
+                    dots: true,
+                    centerMode: true,
+                    focusOnSelect: true,
+                    prevArrow: '<button type="button" class="manufacture-slider_btn manufacture-slider-prev_btn"> <img src="/src/img/manufacture/prevarrow.png"></button>',
+                    nextArrow: '<button type="button" class="manufacture-slider_btn manufacture-slider-next_btn"> <img src="/src/img/manufacture/nextarrow.png"></button>'
+                });
+            }); 
+        </script>
+
+        <!-- Подключаем слайдер с документами -->
+        <script>
+            $(document).ready(function(){
+                $('.reviews-slider').slick({ 
+                    infinite: true,
+                    draggable: false,
+                    centerMode: true,
+                    centerPadding: '1px',
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    variableWidth: false,
+                    prevArrow: '<button type="button" class="reviews-slider_btn reviews-slider-prev_btn"> <img src="/src/img/reviews/prevarrow.png"></button>',
+                    nextArrow: '<button type="button" class="reviews-slider_btn reviews-slider-next_btn"> <img src="/src/img/reviews/nextarrow.png"></button>',
+                    responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                      }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                      }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                     }
+                    } 
+                      ]
+                });
+                $('.reviews-slider__img').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+                    console.log('beforeChange', currentSlide, nextSlide);
+                });
+                $('.reviews-slider__img').on('afterChange', function(event, slick, currentSlide){
+                    console.log('afterChange', currentSlide);
+                });
+            });
+        </script>
+    </body>
+</html>
